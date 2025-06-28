@@ -1,0 +1,31 @@
+// https://code.visualstudio.com/docs/configure/profiles
+{
+    "name":"golang",
+    "extensions": [
+        {
+            "identifier": {
+                "id": "ngtystr.ppm-pgm-viewer-for-vscode",
+                "uuid": "c38c8534-8116-4851-864f-197988144816"
+            },
+            "displayName": "PBM/PPM/PGM Viewer for Visual Studio Code",
+            "applicationScoped": true
+        },
+        {
+            "identifier":{
+                "id": "ymotongpoo.licenser"
+            },
+            "displayName": "Lincenser",
+            "applicationScoped": true
+        },
+        {
+            "identifier":{
+                "id": "ultram4rine.vscode-choosealicense"
+            },
+            "displayName": "Choose a license",
+            "applicationScoped": true
+        }
+    ],
+    "globalState": {
+        "storage": {}
+    }
+}

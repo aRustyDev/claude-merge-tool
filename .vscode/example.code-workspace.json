@@ -1,0 +1,23 @@
+{
+    "folders": [
+      {
+        "path": "/path/to/code/$repo_name"
+      }
+    ],
+    "settings": {
+      "docker.commands.run": "${containerCommand} run --rm -d ${exposedPorts} ${tag}"
+      "docker.scaffolding.templatePath": ""
+    },
+    "extensions": {
+      "recommendations": [
+        "golang.Go",
+        "premparihar.gotestexplorer",
+        "quillaja.goasm",
+        "jinliming2.vscode-go-template",
+        "nhoizey.gremlins",
+        "zxh404.vscode-proto3",
+        "defaltd.go-coverage-viewer"
+      ]
+    }
+  }
+  

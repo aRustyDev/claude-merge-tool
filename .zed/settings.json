@@ -1,0 +1,64 @@
+{
+    "active_pane_modifiers": {
+        "magnification": 1.0,
+        "border_size": 1.0,
+        "inactive_opacity": 1.0
+    },
+    "tab_size": 4,
+    "telemetry": {
+        "diagnostics": true,
+        "metrics": true
+    },
+    "autosave": "off",
+    "terminal": {
+        "alternate_scroll": "on",
+        "blinking": "terminal_controlled",
+        "copy_on_select": false,
+        "dock": "bottom",
+        "detect_venv": {
+            "on": {
+                "directories": [".env", "env", ".venv", "venv"],
+                "activate_script": "default"
+            }
+        },
+        "env": {},
+        "font_family": null,
+        "font_features": null,
+        "font_size": null,
+        "line_height": "comfortable",
+        "option_as_meta": false,
+        "button": false,
+        "shell": {},
+        "toolbar": {
+            "breadcrumbs": true
+        },
+        "working_directory": "current_project_directory",
+        "scrollbar": {
+            "show": null
+        }
+    },
+    "auto_install_extensions": {
+        "git-firefly": true,
+        "make": true,
+        "dockerfile": true,
+        "docker-compose": true,
+        "log": true,
+        "graphql": true,
+        "sql": true,
+        "env": true,
+        "golangci-lint": true,
+        "typst": true,
+        "templ": true,
+        "proto": true,
+        "capn-proto": true,
+        "basher": true,
+        "marksman": true,
+        "asciidoc": true,
+        "helm": true,
+        "typos-spell-checker": true,
+        "cue": true,
+        "toml": true,
+        "wakatime": true,
+        "macos-classic": true
+    }
+}
