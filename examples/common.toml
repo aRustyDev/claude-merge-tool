@@ -1,0 +1,18 @@
+[metadata]
+title = "Claude Development Guidelines"
+description = "Multi-format configuration system"
+version = "2.0.0"
+priority = { type = "relative", value = 1 }
+
+[sections.header]
+order = 1
+content = """# Claude Development Guidelines
+
+Base guidelines that apply to all projects.
+
+<!-- MERGE:test-commands -->
+"""
+
+[merge_points.test-commands]
+placeholder = "<!-- MERGE:test-commands -->"
+default = "Run basic tests"
